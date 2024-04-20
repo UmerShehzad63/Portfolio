@@ -2,18 +2,6 @@
 
 Welcome to my portfolio website project repository! This repository contains the source code for my personal portfolio website, showcasing my skills, projects, and services as a Computer Science student with a passion for programming and web development.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-This portfolio website serves as a platform to display my skills, experience, and projects to potential collaborators, employers, and clients. It provides an overview of my background, educational journey, featured projects, and the services I offer.
-
 ## Features
 - **Responsive Design**: The website is designed to be fully responsive, ensuring optimal viewing and interaction across various devices and screen sizes.
 - **Project Showcase**: Explore my featured projects with detailed descriptions and links to their respective websites or repositories.
