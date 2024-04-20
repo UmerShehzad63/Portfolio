@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer Shehzad Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("boIRey9deDGGzVFOT");
+        })();
+    </script>
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class = "logo">Umer 
+        <span>Shehzad</span></a>
+
+        <i class='bx bx-menu' id = "menu-icon"></i>
+        
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#projects" >Projects</a>
+            <a href="#services">Services</a>
+            <a href="#education" >Education</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id ="home">
+        <div class="home-content">
+            <h1>Hi, It's <span> Umer</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Hello, I'm Umer Shehzad, a Computer Science student 
+            with a passion for programming and web development, 
+            with a keen interest in AI. Proficient in React.js, Node.js, PostgreSQL, MySQL, and web3.
+            Additionally, I have strong programming skills in Python and C. 
+            With expertise in software development methodologies and algorithms,
+            I excel in optimizing solutions for enhanced user experiences.Eager to learn and explore new technologies,
+            I'm open to opportunities for growth and collaboration. Let's connect and create together!
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/umershehzad63/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/UmerShehzad63"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class = "btn">Hire</a>
+                <a href="#contact" class = "btn">
+                    Contact
+                </a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="/images/mypic.jpg" alt="">
+            </div>  
+    </section>
+    <section class="projects" id="projects">
+        <div class="project-box">
+            <h2 class="heading">Projects</h2>
+            <div class="wrapper">
+                <a href="https://umershehzad63.github.io/Country-Snap/" class="project-link">
+                    <div class="project-item">
+                        <img src="/images/country-snap.jpg" alt="">
+                        <h2>country-snap</h2>
+                        <div class="description">
+                            <p>This interactive website lets you discover basic info about countries,
+                                built with HTML, CSS, JavaScript, EJS, and APIs.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="https://to-do-list-umershehzad63.netlify.app" class="project-link">
+                    <div class="project-item">
+                        <img src="/images/to-do-list.png" alt="">
+                        <h2>To-Do-list</h2>
+                        <div class="description">
+                            <p>A to-do-list website built with 
+                                HTML, CSS , JAVASCRIPT and REACT JS 
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="https://umershehzad63.github.io/Simon-Game/" class="project-link">
+                    <div class="project-item">
+                        <img src="/images/simon-game.jpg" alt="">
+                        <h2>Simon Game</h2>
+                        <div class="description">
+                            <p>The Simon game is a classic memory game built with
+                                HTML , CSS and JAVASCRIPT 
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+    <section class="services" id = "services">
+        <h2 class="heading">Services</h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Front End Development</h4>
+                    <p>Specializing in front-end development, I offer expertise in crafting engaging
+                         and intuitive user interfaces using HTML, CSS, and JavaScript, along with frameworks
+                        like React.js. From designing responsive layouts to implementing interactive features,
+                         I excel in creating visually appealing and user-friendly web experiences that
+                          captivate audiences and drive engagement.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Backend Development</h4>
+                    <p>With proficiency in back-end technologies such as Node.js and database management 
+                        systems like PostgreSQL and MySQL, I provide comprehensive back-end development
+                         solutions. From building scalable APIs to managing data storage and retrieval,
+                          I specialize in developing robust and efficient back-end systems that power 
+                          dynamic web applications and ensure seamless functionality.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Software Solutions for Your Needs</h4>
+                    <p>With proficiency in Python, C, and JavaScript, I offer custom software solutions 
+                        tailored to meet your specific requirements. Whether you need assistance with 
+                        Python libraries, data scraping tasks, or algorithmic solutions, I specialize in
+                         delivering customized software solutions that align with your goals. From crafting 
+                         desktop applications to providing support with system utilities, I'm dedicated
+                          to meeting your software development needs efficiently and effectively.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <selection class="education" id = "education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022
+                    </div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>
+                    I Completed my high school education at PAF College Lower Topa with distinction. 
+                    Actively participated in the computer club, where I developed 2D shooting game
+                     using Construct 2. Serving as the head of the computer club, I refined leadership
+                      and teamwork skills while overseeing diferent projects. This experience ignited 
+                      my passion for software development and reinforced my determination to pursue a career
+                       in computer science. Additionally, achieved success in sports, 
+                       winning the inter-college table tennis tournament..</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - present
+                    </div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p>
+                    Following my high school graduation, I received the  Stipendium Hungaricum scholarship,
+                     which allowed me to embark on my academic journey in Hungary. I chose to pursue
+                      my passion for computer science at the University of Debrecen. Here, I am fully immersed
+                     in a rigorous curriculum tailored to deepen my understanding of computer science principles
+                    and applications. The scholarship not only supports my academic pursuits but also provides
+                     invaluable opportunities for hands-on learning and research in this dynamic field. .</p>
+                    </div>
+                
+            </div>
+
+        </div>
+
+    </selection>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form id="contact-form" onsubmit="sendMail(); return false;">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" id="name" placeholder="Full Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+        
+    
+        <div class="contact-items">
+            <div class="contact-item">
+                <a href="mailto:umershehzad.at1863@gmail.com" class="btn"><i class='bx bx-envelope'></i></a>
+            </div>
+            <div class="contact-item">
+                <a href="tel:06705342970" class="btn"><i class='bx bx-phone-call'></i></a>
+            </div>
+        </div>
+        
+    </section>
+    
+
+
+     <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/umershehzad63/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/UmerShehzad63"><i class='bx bxl-github' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#home" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#projects" >Projects</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#education" >Education</a>
+            </li>
+            <li>
+                <a href="#contact" >Contact</a>
+            </li>
+        </ul>
+        <p class="copytigh">
+            @ Umer Shehzad | All rights reserved
+        </p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("boIRey9deDGGzVFOT");
+        })();
+    </script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
